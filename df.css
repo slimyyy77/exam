@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quantico", sans-serif;
+}
+.conteiner {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+header {
+  background-color: #03165c;
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cs ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.cs ul li {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+.cs ul li:first-child {
+  color: orange;
+}
+.cs ul li:hover {
+  color: orange;
+}
+.cs2 {
+  display: flex;
+  gap: 40px;
+}
+.ENG {
+  background-color: #404864;
+  padding: 2px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cs2 input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+select {
+  width: 165px;
+  height: 3opx;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.yy {
+  background-image: url(./img/Bg.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ll {
+  text-align: center;
+  color: white;
+}
+.ht {
+  background-color: #00020a;
+}
+.cs22 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 42px;
+}
+.naan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 740px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.can {
+  background-color: black;
+  padding-bottom: 129px;
+  padding-top: 61px;
+}
+.black {
+  background-color: #404864;
+}
+.faan {
+  width: 323px;
+}
+.haan {
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+}
